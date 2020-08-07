@@ -61,12 +61,12 @@ public:
 	class UAISenseConfig_Hearing* HearingConfig;
 
 	// The range at which the PatrolCharacter can hear the PlayerCharacter.
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = AI)
-	float AIHearingRange = 1000.0f;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AI)
+	float AIHearingRange = 500.0f;
 
 	// The amount of time after the PlayerCharacter has been heard that the
 	// PatrolCharacter will forget they heard the PlayerCharacter.
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = AI)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AI)
 	float AIHearingMaxAge = 5.0f;
 
 	// Indicates whether the PatrolCharacter will be able to listen at the

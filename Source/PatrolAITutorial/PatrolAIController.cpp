@@ -142,7 +142,7 @@ void APatrolAIController::OnPawnDetected(const TArray<AActor*>& DetectedPawns)
 		// DEBUG
 		if (GEngine)
 		{
-			GEngine->AddOnScreenDebugMessage(-1, 10.0, FColor::Green, FString::Printf(TEXT("Investigating Sound At Location: %s For %f seconds"), *PositionToMoveTo.ToString(), AIHearingMaxAge));
+			GEngine->AddOnScreenDebugMessage(-1, 0.1, FColor::Green, FString::Printf(TEXT("Investigating Sound At Location: %s For %f seconds"), *PositionToMoveTo.ToString(), AIHearingMaxAge));
 		}
 	}
 }
