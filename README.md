@@ -6,7 +6,7 @@
 
 <p align="center">Demo project for my tutorial about creating a patrol AI with hearing sense using C++.<p>
 
-This is the demo project for the tutorial at [https://robertcorponoi.com/creating-a-patrol-ai-with-hearing-sense/](https://robertcorponoi.com/creating-a-patrol-ai-with-hearing-sense/) which explains how to set up a patrolling AI that listens for the player making sound. This is a good setup for any game that might involve enemies that track the player via sound instead of line of sight.
+This is the demo project for the tutorial at [Unreal C++ Creating A Patrol AI With Hearing Sense](https://robertcorponoi.com/unreal-c-creating-a-patrol-ai-with-hearing-sense/) which explains how to set up a patrolling AI that listens for the player making sound. This is a good setup for any game that might involve enemies that track the player via sound instead of line of sight.
 
 This demo was created with Unreal 4.25.3
 
